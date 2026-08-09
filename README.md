@@ -1,11 +1,11 @@
 <div align="center">
 
   <!-- DYNAMIC BANNER HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2942,50:1a365d,100:2b6cb0&height=280&section=header&text=BRADLEY%20BANGERA&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Embedded%20Systems%20%7C%20STM32%20Bare-Metal%20%26%20FreeRTOS%20%7C%20HIL%20Test%20Jigs&descAlignY=60&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2942,50:1a365d,100:2b6cb0&height=280&section=header&text=BRADLEY%20BANGERA&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Junior%20Embedded%20Engineer%20%7C%20STM32%20Bare-Metal%20%26%20FreeRTOS%20%7C%20HIL%20Test%20Jigs&descAlignY=60&descAlign=50" width="100%" />
 
   <!-- DYNAMIC TYPING SUBTITLE -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=3182CE&center=true&vCenter=true&width=750&lines=Architecting+STM32F4+Cortex-M4+Bare-Metal+%26+FreeRTOS+Firmware;Designing+Hardware-in-the-Loop+(HIL)+Test+Jigs+%26+Electronic+Loads;Implementing+Closed-Loop+PID+Control+%26+Digital+Signal+Filtering;Engineering+Low-Power+GSM%2FGPRS+IoT+Telemetry+%26+Custom+PCB+Layouts" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=3182CE&center=true&vCenter=true&width=750&lines=Architecting+STM32F4+Cortex-M4+Bare-Metal+%26+FreeRTOS+Firmware;Designing+Hardware-in-the-Loop+(HIL)+Test+Jigs+%26+Thrust+Stands;Implementing+Closed-Loop+PID+Control+%26+Digital+Signal+Filtering;Engineering+Low-Power+GSM%2FGPRS+IoT+Telemetry+%26+Custom+PCB+Layouts" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -36,6 +36,7 @@
 
 typedef struct {
     const char* engineer_name;
+    const char* role;
     const char* primary_mcu;
     const char* kernel;
     const char* specialization;
@@ -45,9 +46,10 @@ typedef struct {
 void sys_init(void) {
     EmbeddedProfile_t bradley = {
         .engineer_name = "Bradley Chrisben Bangera",
-        .primary_mcu = "STM32F401 (ARM Cortex-M4) / ESP32",
-        .kernel = "FreeRTOS & Bare-Metal C/C++",
-        .specialization = "Firmware, HIL Test Systems, Power Validation & IoT",
+        .role = "Junior Embedded Engineer",
+        .primary_mcu = "STM32 (ARM Cortex-M4/M0) / ESP32",
+        .kernel = "FreeRTOS Kernel & Bare-Metal C/C++",
+        .specialization = "Firmware, HIL Test Systems, Propulsion Dynamics & IoT",
         .hardware_design_capable = true
     };
 
